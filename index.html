@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lester Angelo - Portfolio</title>
-    <link rel="stylesheet" href="Lester.css">
-    
-    
-    
-    
+    <link rel="stylesheet" href="Lester.css"> 
+    <link rel="stylesheet" href="Lester.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
-<body>
+<body class="body">
     <header>
         <div class="container">
             <h1>Lester Angelo</h1>
            <br>
             <nav>
                 <ul>
-                    <li><a href="#" onclick="navigateTo('home')">Home</a></li>
-                    <li><a href="#" onclick="navigateTo('about')">About</a></li>
-                    <li><a href="#" onclick="navigateTo('projects')">Projects</a></li>
-                    <li><a href="#" onclick="navigateTo('repositories')">Repositories</a></li>
+                    <button type="button"><li><a href="#" onclick="navigateTo('home')">Home</a></li></button>
+                    <button type="button"><li><a href="#" onclick="navigateTo('about')">About</a></li></button>
+                    <button type="button"><li><a href="#" onclick="navigateTo('projects')">Projects</a></li></button>
+                    <button type="button"><li><a href="#" onclick="navigateTo('repositories')">Repositories</a></li></button>
+                    <button type="button"><li><a href="#" onclick="navigateTo('cntct')">Contact</a></li></button>
                 </ul>
             </nav>
         </div>
@@ -29,32 +31,26 @@
     <main id="home" class="container">
         <h2>My pleasure to welcome you in my Portfolio!</h2>
         <p>"Teachers can open the door, but you must enter it yourself."</p>
-         "<img class="pic" src="ClassR.jpg">"
+         "<img class="pic" src="">"
         
     </main>
 
     <main id="about" class="container" style="display: none;">
         <h2>About Me</h2>
-       
-        <br><br><br>
-        <img class="pic" src="les.jpg" alt="">
-        <h4>Age: 20</h4>
-        <h5>GitHub Codename: <a href="https://github.com/Angelodalde00">Angelodalde00</a></h5>
-        <br>
-        <h3>Skills:</h3>
-        <br>
-        <h5>"Playing moba games"</5>
-        <h5>"Master at smallthings"</h5>
-        <h5>"Good listener"</h5>
-        <h5>"Mag toon pakog mga screto sa pag lambo "</h5>
-        <h5>"Glass installer"</h5>
+       <br>
+       <section class="person-card">
+        <img src="les.jpg" alt="Lester" class="img">
+        <h5>Lester Angelo</h5>
+        <p>"Matthew 6:33"- But seek first the kingdom of God and his righteousness, and all these things well be added to you</p>
+        <p>ID No. 20221287</p>
+        <p>Github:<a href="https://github.com/taloy2">ANGELO</a></p>
+    </section>
 
     </main>
 
     <main id="projects" class="container" style="display: none;">
-        <h2>Projects</h2>
         <div class="project">
-            <h3><i class="fas fa-code"></i> Project Portfolio</h3>
+            <h4>PROJECT</h4>
             
         </div>
         <div class="project">
@@ -89,23 +85,47 @@
         </div>
     </main>
         <main id="repositories" class="container" style="display: none;">
-            <div class="container">
-          <h2 >Repositories</h2>
+            <div class="repositories">
+            <h4>REPOSITORIES</h4>
             </div>
             <br>
-            <div class="repositories"><h3><a href="https://github.com/Angelodalde00/Superclass/tree/main/src">Superclass</a></h3></div>
-            <div class="repositories"><h3><a href="https://github.com/Angelodalde00/Bubbles/tree/main/src/bubble">Bubbles</a></h3></div>
-            <div class="repositories"><h3><a href="https://github.com/Angelodalde00/it24-assessment">it24-assessment</a></h3></div>
-            <div class="repositories"><h3><a href="https://github.com/Angelodalde00/activity">Act.</a></h3></div>
-            <div class="repositories"><h3><a href="https://github.com/Angelodalde00/BankAccount">BankAccount</a></h3></div>
-            <div class="repositories"><h3><a href="https://github.com/Angelodalde00/Linkedlist">Linkedlist</a></h3></div>
-            <div class="repositories"><h3><a href="https://github.com/Angelodalde00/it21c-student/tree/main/Student/src">Student OOP</a></h3></div>
-            <div class="repositories"><h3><a href="https://github.com/Angelodalde00/it24c-branches">Branch</a></h3></div>
-            <div class="repositories"><h3><a href="https://github.com/Angelodalde00/Spa-jquery">Spa-jquery</a></h3></div>
+            <div class="repositories">
+                <h3><a href="https://github.com/Angelodalde00/Superclass/tree/main/src">Superclass</a></h3></div>
+            <div class="repositories">
+                <h3><a href="https://github.com/Angelodalde00/Bubbles/tree/main/src/bubble">Bubbles</a></h3></div>
+            <div class="repositories">
+                <h3><a href="https://github.com/Angelodalde00/it24-assessment">it24-assessment</a></h3></div>
+            <div class="repositories">
+                <h3><a href="https://github.com/Angelodalde00/activity">Act.</a></h3></div>
+            <div class="repositories">
+                <h3><a href="https://github.com/Angelodalde00/BankAccount">BankAccount</a></h3></div>
+            <div class="repositories">
+                <h3><a href="https://github.com/Angelodalde00/Linkedlist">Linkedlist</a></h3></div>
+            <div class="repositories">
+                <h3><a href="https://github.com/Angelodalde00/it21c-student/tree/main/Student/src">Student OOP</a></h3></div>
+            <div class="repositories">
+                <h3><a href="https://github.com/Angelodalde00/it24c-branches">Branch</a></h3></div>
+            <div class="repositories">
+                <h3><a href="https://github.com/Angelodalde00/Spa-jquery">Spa-jquery</a></h3></div>
+        </main>
 
+                <main id="cntct" class="contact" style="display: none ;">
+                    
+                    <h1 class="title">Contact</h1>
+                    <div class="Contact">
+                        LESTER ANGELO O. DALDE<br>
+                        Email: angeloo@gmail.com<br>
+                        Phone: 09392526175<br>
+                        <button type="button"><a href="https://www.facebook.com/onalan.dalde03"><span><img src="https://cdn.freebiesupply.com/logos/large/2x/facebook-logo-black-2019.png" width="70" height="auto"></span></a></button>
+                        <button type="button"><a href="https://github.com/Angelodalde00"><span><img src="https://i.pinimg.com/736x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg" width="70" height="auto"></span></a></button>
+                    </div>
 
         </main>
-       
+        <footer>
+            <div class="container">
+               <h2> <p style="color: rgb(20, 243, 0);">&copy; 2023 Angelo. All rights reserved.</p></h2>
+            </div>
+        </footer>
     <script src="Lester.js"></script>
 </body>
 </html>
