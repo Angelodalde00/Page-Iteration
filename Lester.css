@@ -16,6 +16,7 @@ header {
     background-color: black;
     color: white;
     padding: 30px 0;
+
 }
 
 header h1 {
@@ -32,7 +33,33 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    background-color: #333;
+}
 
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: pink;
+    background-color: #5c0303;
+    border-radius: 5px; 
+}
 nav li {
     display: inline;
     margin-right: 15px;
@@ -51,6 +78,7 @@ nav a:hover {
 
 .pic {
     height: 600px;
+    background-size: cover;
 }
 
 main {
@@ -63,6 +91,7 @@ main {
 
 .project {
     margin-bottom: 20px;
+    
    
 }
 
@@ -79,3 +108,39 @@ main {
         font-size: 16px;
     }
 }
+.project {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(224, 14, 42);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    font-family: 'Quicksand', sans-serif;
+}
+.project:hover {
+    transform: scale(1.05); 
+}
+.project h2 {
+    font-size: 1.8em;
+    color: #fff;
+    text-align: center;
+}
+.project a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+}
+.project a:hover {
+    text-decoration: underline;
+}
+.project div {
+    margin-bottom: 10px;
+}
+.project h4{
+text-align: center;
+}
+.project h2{
+    color: black;
+}
+    

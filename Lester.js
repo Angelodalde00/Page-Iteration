@@ -8,6 +8,8 @@ function navigateTo(page) {
     // Show the selected content section
     const selectedSection = document.getElementById(page);
     selectedSection.style.display = 'block';
+
+    
 }
 
 // Initial navigation to the home page
